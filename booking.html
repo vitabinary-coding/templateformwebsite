@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking Template</title>
+    <meta property="og:title" content="Our Menu">
+    <meta property="og:type"  content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url"   content="https://littlelemon/">
+    <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+  
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png">
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>LOCATION</li>
+                <li>BLOG</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Book a Table</h1>
+        <form  method="post">
+            <fieldset id="size">
+                <label><input type="radio" name="size" value="2"> 2-person table</label>
+                <label><input type="radio" name="size" value="4" checked> 4-person table</label>
+                <label><input type="radio" name="size" value="6"> 6-person table</label>
+        
+            </fieldset>
+            <fieldset id="location">
+                <label ><input type="radio" name="location" value="indoors" checked> Indoors</label>
+                <label ><input type="radio" name="location" value="outdoors"> Outdoors</label>
+                
+                
+            </fieldset>
+            <button type="submit">BOOK TABLE</button>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright vataassetbinary</p>
+    </footer>
+</body>
+</html>
