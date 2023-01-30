@@ -61,6 +61,30 @@
         </div>
            
         </form>
+
+        <form method="post">
+            <div>
+                <label for="emailaddress">Email Address</label>
+                <input type="email" name="emailaddress" id="emailaddress">
+            </div>
+            <div>
+                <label for="datebooking">Date of Booking</label>
+                <input type="date" name="datebooking" id="datebooking">
+
+            </div>
+            <div>
+                <label for="numberofpeople">Number of People</label>
+                <input type="number" name="numberofpeople" id="numberofpeople" min="2" max="8">
+            </div>
+            <div>
+                <input type="checkbox" name="agreepolicy" id="agreepolicy">
+                <label for="agreepolicy">I agree to the cancellation policy</label>
+            </div>
+
+            <div>
+                <button type="submit">Book Now</button>
+            </div>
+        </form>
     </main>
     <footer>
         <p>Copyright vataassetbinary</p>
